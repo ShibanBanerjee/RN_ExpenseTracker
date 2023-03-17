@@ -54,7 +54,7 @@ const ExpenseForm = ({ onCancel, onSubmit, submitButtonLabel, defaultValues }) =
                     date: { value: curInputs.date.value, isValid: dateIsValid},
                     title: { value: curInputs.title.value, isValid: titleIsValid},
                 }
-            })
+            });
             return;
         }
 
